@@ -1,7 +1,7 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
+
 import lombok.*;
+
 @Getter
 public class Test {
 
@@ -10,5 +10,11 @@ public class Test {
         Scanner sc = new Scanner(System.in);
         String id;
 
+
+    }
+
+    int findUser() {
+        int a = 1;
+        return a;
     }
 }
