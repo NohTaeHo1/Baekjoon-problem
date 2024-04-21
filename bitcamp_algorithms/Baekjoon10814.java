@@ -14,16 +14,16 @@ public class Baekjoon10814 {
 
         List<String[]> member = new ArrayList<>();
 
-        for(int i=0;i<testCase;i++){
+        for (int i = 0; i < testCase; i++) {
             String[] input = br.readLine().split(" ");
             member.add(input);
         }
 
-        member.sort(Comparator.comparing(i->Integer.parseInt(i[0])));
+        member.sort(Comparator.comparing(i -> Integer.parseInt(i[0])));
 
-        for(int i=0;i<testCase;i++){
+        for (int i = 0; i < testCase; i++) {
             String[] output = member.get(i);
-        bw.write(output[0]+" "+output[1]+"\n");
+            bw.write(output[0] + " " + output[1] + "\n");
         }
 
         bw.flush();
