@@ -1,3 +1,5 @@
+package baekjoon_problem;
+
 import java.util.Scanner;
 
 public class Backjoon10818MaxMin {

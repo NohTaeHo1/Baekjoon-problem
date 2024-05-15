@@ -1,8 +1,7 @@
-package bitcamp_algorithms;
+package baekjoon_problem;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 

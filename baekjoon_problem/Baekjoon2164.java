@@ -1,4 +1,4 @@
-package bitcamp_algorithms;
+package baekjoon_problem;
 
 import java.util.ArrayList;
 import java.util.List;

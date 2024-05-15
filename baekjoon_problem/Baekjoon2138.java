@@ -1,4 +1,4 @@
-package bitcamp_algorithms;
+package baekjoon_problem;
 //문제의 핵심 아이디어는 첫 번째 전구의 상태를 변경할지 말지 결정하는 것입니다. 첫 번째 전구의 상태를 변경하면 그 이후의 전구 상태 변경 방법이 정해지기 때문입니다. 따라서 두 가지 경우를 모두 시도해보고, 더 적은 횟수로 모든 전구를 켤 수 있는 경우를 선택합니다.
 
 import java.util.Scanner;
